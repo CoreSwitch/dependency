@@ -211,8 +211,6 @@ func (t TopoSorter) Less(i, j int) bool {
 func (g *MapDependencyGraph) Sort(dep DependencyList) {
 	topo := g.TopoSort()
 	comparator := func(x, y string) bool {
-		// fmt.Println(x, "pos:", topo.Pos(x))
-		// fmt.Println(y, "pos:", topo.Pos(y))
 		if topo.Pos(x) < topo.Pos(y) {
 			return true
 		} else {
