@@ -1,6 +1,7 @@
 # Dependency
 
-[![CircleCI](https://circleci.com/gh/coreswitch/dependency/tree/master.svg?style=svg)](https://circleci.com/gh/coreswitch/dependency/tree/master)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/coreswitch/dependency/blob/master/LICENSE)
+[![CircleCI](https://circleci.com/gh/coreswitch/dependency/tree/master.svg?style=shield)](https://circleci.com/gh/coreswitch/dependency/tree/master)
 
 Original implementation is Situart Sierra's
 [Dependency](https://github.com/stuartsierra/dependency) for Clojure
